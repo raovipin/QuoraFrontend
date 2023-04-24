@@ -1,0 +1,11 @@
+.Spaces{
+    margin-top: 10px;
+    flex: 2;
+    
+}
+@media only screen and (max-width: 550px) {
+    .Spaces {
+      display: none;
+    }
+  }
+  

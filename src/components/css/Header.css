@@ -1,0 +1,264 @@
+.quoraheader {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    position: sticky;
+    z-index: 1000;
+    top: 0px;
+    /* box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5); */
+    box-shadow: 2px 3px 6px rgba(187, 187, 187, 0.5);
+    justify-content: center;
+    padding: 3px;
+  }
+  
+  .quoracontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* padding: 5px; */
+  }
+  
+  .quoralogo > img {
+    height: 50px !important;
+    /* object-fit: contain; */
+    width: 100px;
+    margin-right: 2rem;
+  }
+  
+  .quoraicons {
+    display: flex;
+  }
+  
+  .quoraicon {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .quoraicon:hover {
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  
+  .quoraicon > .MuiSvgIcon-root {
+    color: gray;
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .quoraicon:hover > .MuiSvgIcon-root {
+    color: #000;
+  }
+ 
+  .quorasearch {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  .quorasearch> input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgb(49, 49, 49);
+  }
+  
+  .quorasearch> .MuiSvgIcon-root {
+    color: gray;
+  }
+  
+  .qHeader__avatar {
+    cursor: pointer;
+  }
+  .quoraavatar {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+  }
+  
+  .quoraavatar> .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: gray;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  .quoraavatar> .MuiSvgIcon-root:hover {
+    color: #000;
+  }
+  
+  .headerbtn{
+    color: rgb(113, 113, 113);
+    background: white;
+    text-transform: inherit;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+    padding: 1rem;
+
+    /* display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+    color: #222;
+    background: rgb(214, 214, 214); */
+  }
+  .headerbtn h5{
+ font-size: .9rem;
+  }
+  
+  .headerbtn:hover {
+    color: #222;
+    background: rgb(214, 214, 214);
+  }
+
+  .css-1wnsr1i{
+    box-sizing: border-box;
+    /* display: flex; */
+    position: relative !important;
+    min-height: 400px;
+    max-height: 80vh;
+    max-width: 90vw;
+    width: 730px !important;
+    border-radius: 10px !important;
+    transition-property: opacity, transform;
+    transition-duration: 180ms;
+    transition-timing-function: ease-in-out;
+  }
+
+#modal-modal-title {
+ display: flex;
+ justify-content: start;
+   
+  }
+  
+  #modal-modal-description  {
+   display: flex;
+   justify-content: end;
+  }
+
+  .que{
+    display: flex;
+    justify-content: space-between !important;
+  }
+
+  .modal-modal-title{
+    padding-right:  200px;
+    font-size: 20px;
+    padding-bottom: 3px;
+    /* background: grey; */
+    font-weight: bold;
+  }
+  p:hover{
+text-decoration: underline;
+font-weight: bold;
+  }
+  .modal-modal-title2{
+    padding-bottom: 3px;
+    padding-left:  200px;
+    font-size: 20px;
+    font-weight: bold;
+    /* background: grey; */
+  }
+
+  .inp{
+    display: flex;
+    margin-top: 8rem;
+    height: 3rem;
+    border-radius: 10px;
+    width: 100%;
+  }
+.btns{
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+}
+.Mod{
+  box-sizing: border-box;
+    /* display: flex; */
+    position: relative !important;
+    min-height: 400px;
+    max-height: 80vh;
+    max-width: 90vw;
+    width: 730px !important;
+    border-radius: 10px !important;
+    transition-property: opacity, transform;
+    transition-duration: 180ms;
+    transition-timing-function: ease-in-out;
+}
+
+form{
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  width: 90%;
+  margin:5rem auto;
+  min-height: fit-content;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form>h2{
+  color: rgb(12, 143, 99);
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.form-control{
+  height: 2rem;
+  width: 40vw;
+  border: none;
+  /* border-bottom: 1px solid black; */
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.inputbox >label{
+  /* margin: 1rem; */
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  /* margin-right: 1rem; */
+}
+.btnsub{
+  width: 8rem;
+    margin-top: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    color:  rgb(12, 143, 99);
+    font-weight: bold;
+    border-color:  rgb(12, 143, 99);
+}
+.btnsub:hover{
+  color: white;
+  background-color:  rgb(12, 143, 99);
+}
+@media only screen and (max-width: 850px) {
+  .quorasearch {
+    display: none;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .headerbtn {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+

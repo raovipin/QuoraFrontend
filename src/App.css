@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+.btn:hover{
+  box-shadow: unset ;
+}
+
+input[type="button"]{
+  outline: none;
+}
+button::selection {
+  outline: none;
+}
+button:focus{
+  outline: none;
+}
+
+:root{
+  --vp:0.052
+  --vm:0.278vw
+}

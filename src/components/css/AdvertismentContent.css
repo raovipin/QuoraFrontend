@@ -1,0 +1,21 @@
+.AdvertismentContents{
+    display: flex;
+    cursor: pointer;
+}
+.AdvertismentContent{
+    margin: 5px;
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.AdvertismentContent >img{
+    height: 30px;
+    border-radius: 5px;
+}
+.Advtitle>h5{
+    color: rgb(70,68,68);
+}
+.Advtitle{
+    margin-left: 10px;
+}
